@@ -65,8 +65,9 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
     define('TMDB_API_KEY', 'BURAYA_KENDI_TMDB_API_ANAHTARINIZI_GIRIN');
     ```
     *TMDB (The Movie Database) sitesinden ücretsiz bir API anahtarı alıp `TMDB_API_KEY` alanına eklemeniz, görsellerin ve bazı verilerin çekilmesi için gereklidir.*
+    *Bu adımları atlamak isterseniz `dizi_film_oneri_sistemi.sql` dosyasını direkt olarak içe aktar yaparak bütün veritabanını kullanılabilir halde elde edebilirsiniz.*
 
-4.  **Projeyi Çalıştırın:**
+5.  **Projeyi Çalıştırın:**
     Proje dosyalarını web sunucunuzun ana dizinine (örn: `htdocs` veya `www`) kopyalayın ve tarayıcınızdan `http://localhost/PROJE_KLASOR_ADI/` adresine gidin.
 
 ## Geliştirilen İleri Düzey Veritabanı Özellikleri
